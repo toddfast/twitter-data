@@ -1,8 +1,3 @@
-Twitter Data
-============
-
-#### A simple, open proposal for embedding data in Twitter messages
-
 Originally published May 12, 2009. This is version 0.3, published May 19, 2009.
 
 Introduction
@@ -235,8 +230,8 @@ Specifically, the following un-namespaced tuple names are reserved and
 should not be used by applications:
 
 ````
-a, b, c, d, e, f, g, h, i, j, k, l, m, n, o, p, 
-q, r, s, t, u, v, w, x, y, z, _, foo, bar
+a, b, c, d, e, f, g, h, i, j, k, l, m, n, o, p, q, r, s, t, u, v, w, x, 
+y, z, _, foo, bar
 ````
 
 #### Comments on syntax
@@ -300,8 +295,8 @@ following namespaces are reserved and should not be used by
 applications:
 
 ````
-a, b, c, d, e, f, g, h, i, j, k, l, m, n, o, 
-p, q, r, s, t, u, v, w, x, y, z, _, td
+a, b, c, d, e, f, g, h, i, j, k, l, m, n, o, p, q, r, s, t, u, v, w, x, 
+y, z, _, td
 ````
 
 ### Message subjects
@@ -550,8 +545,7 @@ Examples
 -------------
 
 ````
-Cruising down 101 near SFO $mph 95 $lat 37.612804 
-$long -122.381687
+Cruising down 101 near SFO $mph 95 $lat 37.612804 $long -122.381687
 ````
 ````
 I love the #twitterdata proposal! $vote +1
@@ -563,8 +557,8 @@ Call me $phone 123-456-7890
 Cheap #gas! $lat 37.323144 $long -121.944423 $price 1.99
 ````
 ````
-#wmodata $id DW1428 $temp 69F $wangle 232 
-$wspeed 4.0mph $rh 50% $dew 49F $press 1015.2mb
+#wmodata $id DW1428 $temp 69F $wangle 232 $wspeed 4.0mph $rh 50% 
+$dew 49F $press 1015.2mb
 ````
 ````
 Saw a $aero>man MIG $in walmart$ would you believe it?
